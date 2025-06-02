@@ -2,8 +2,10 @@
 이 프로젝트는 llama2 7b Q4모델을 사용하여 local환경에서 직접 구동하기 위해 제작한 프로젝트 이다.
 html과 js 그리고 flask를 사용하여 GUI환경을 구성하였다.
 
+***
+
 ## 2. How powerful should your computer be? (computer specifications)
-최소 사양
+**최소 사양**
 window의 경우
 CPU: intel I5 12700f
 RAM: 16GB
@@ -12,7 +14,7 @@ SSD: 32GB
 
 MAC의 경우 macbook m2 air
 
-권장사양
+**권장사양**
 window의 경우
 CPU: intel I7 12700KF
 RAM: 24GB
@@ -23,8 +25,10 @@ MAC의 경우 macbook m1pro
 
 나의 경우 m1pro 기본 모델을 사용
 
+***
+
 ## 3. How to use
-경고: 해당 코드는 venv가상환경에서 사용하는것을 추천합니다.
+*경고:* 해당 코드는 venv가상환경에서 사용하는것을 추천합니다.
 
 가상환경 제작
 python3 -m venv venv
@@ -42,7 +46,7 @@ venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 
 llama.cpp 저장소 클론
-git clone https://github.com/ggerganov/llama.cpp
+git clone <https://github.com/ggerganov/llama.cpp>
 
 모델 저장소 생성
 mkdir models
@@ -73,3 +77,4 @@ kiosk-llama/
 ├── requirements.txt
 └── .gitignore
 
+***
