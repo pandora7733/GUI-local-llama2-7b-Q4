@@ -2,7 +2,7 @@
 이 프로젝트는 llama2 7b Q4모델을 사용하여 local환경에서 직접 구동하기 위해 제작한 프로젝트 이다.
 html과 js 그리고 flask를 사용하여 GUI환경을 구성하였다.
 
-## 2. How powerful should your computer be? (computer specifications)
+## 2. How powerful should your computer be? <br> (computer specifications)
 
 <table>
   <tr>
