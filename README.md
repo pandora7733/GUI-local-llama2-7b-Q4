@@ -52,20 +52,25 @@ llama.cpp 저장소 클론
 `mkdir models`
 
 mac OS brew에서 cmake사용
-```brew install cmake
+```
+brew install cmake
 cd llama.cpp
 mkdir build
 cd build
 cmake ..
-cmake --build . --config Release```
+cmake --build . --config Release
+```
 
 모델 다운로드 하기
-```<https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF>에서 llama-2-7b-chat.Q4_K_M.gguf를 다운로드 해줍니다.
-다운로드한 모델을 아까 만든 models에 넣습니다.```
+```
+<https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF>에서 llama-2-7b-chat.Q4_K_M.gguf를 다운로드 해줍니다.
+다운로드한 모델을 아까 만든 models에 넣습니다.
+```
 
 
 최종적으로 다음과 같은 디렉토리 구성이 되어야 합니다.
-```kiosk-llama/
+```
+kiosk-llama/
 ├── app.py
 ├── bin/
 │   └── llama-cli
@@ -75,6 +80,7 @@ cmake --build . --config Release```
 ├── templates/
 │   └── main.html
 ├── requirements.txt
-└── .gitignore```
+└── .gitignore
+```
 
 ***
