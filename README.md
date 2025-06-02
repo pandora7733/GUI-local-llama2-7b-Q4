@@ -7,24 +7,24 @@ html과 js 그리고 flask를 사용하여 GUI환경을 구성하였다.
 <table>
   <tr>
     <th>
-        **최소 사양**  
-        window의 경우  
-        CPU: intel I5 12700f  
-        RAM: 16GB  
-        GPU: rtx3060 8GB  
-        SSD: 32GB  
+        <b>최소 사양</b><br>
+        window의 경우<br>
+        CPU: intel I5 12700f<br>
+        RAM: 16GB<br>
+        GPU: rtx3060 8GB<br>
+        SSD: 32GB<br>
         <br>
-        MAC의 경우 macbook m2 air  
+        MAC의 경우 macbook m2 air<br>
     </th>
     <th>
-        **권장사양**
-        window의 경우
-        CPU: intel I7 12700KF
-        RAM: 24GB
-        GPU: rtx3060 16GB
-        SSD: 64GB
+        <b>권장사양</b><br>
+        window의 경우<br>
+        CPU: intel I7 12700KF<br>
+        RAM: 24GB<br>
+        GPU: rtx3060 16GB<br>
+        SSD: 64GB<br>
         <br>
-        MAC의 경우 macbook m1pro
+        MAC의 경우 macbook m1pro<br>
     </th>
   </tr>
 </table>
