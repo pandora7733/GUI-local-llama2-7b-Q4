@@ -34,25 +34,25 @@ html과 js 그리고 flask를 사용하여 GUI환경을 구성하였다.
 ## 3. How to use
 *경고:* 해당 코드는 venv가상환경에서 사용하는것을 추천합니다.
 
-가상환경 제작
+가상환경 제작  
 `python3 -m venv venv`
 
-[macOS / Linux]
+[macOS / Linux]  
 `source venv/bin/activate`
 
-[Windows CMD]
+[Windows CMD]  
 `venv\Scripts\activate`
 
-[Windows PowerShell]
+[Windows PowerShell]  
 `venv\Scripts\Activate.ps1`
 
-필요한 모듈 install 하기
+필요한 모듈 install 하기  
 `pip install -r requirements.txt`
 
-llama.cpp 저장소 클론
+llama.cpp 저장소 클론  
 `git clone https://github.com/ggerganov/llama.cpp`
 
-모델 저장소 생성
+모델 저장소 생성  
 `mkdir models`
 
 mac OS brew에서 cmake사용
