@@ -87,4 +87,7 @@ kiosk-llama/
 └── .gitignore
 ```
 
+실행시키기  
+`python3 app.py`
+
 ***
