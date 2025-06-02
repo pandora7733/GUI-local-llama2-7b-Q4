@@ -2,9 +2,16 @@
 이 프로젝트는 llama2 7b Q4모델을 사용하여 local환경에서 직접 구동하기 위해 제작한 프로젝트 이다.
 html과 js 그리고 flask를 사용하여 GUI환경을 구성하였다.
 
-***
-
 ## 2. How powerful should your computer be? (computer specifications)
+
+<table>
+  <tr>
+    <th>Before</th>
+    <th>After</th>
+  </tr>
+</table>
+    
+
 **최소 사양**
 window의 경우
 CPU: intel I5 12700f
@@ -24,8 +31,6 @@ SSD: 64GB
 MAC의 경우 macbook m1pro 
 
 나의 경우 m1pro 기본 모델을 사용
-
-***
 
 ## 3. How to use
 *경고:* 해당 코드는 venv가상환경에서 사용하는것을 추천합니다.
