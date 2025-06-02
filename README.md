@@ -37,6 +37,7 @@ html과 js 그리고 flask를 사용하여 GUI환경을 구성하였다.
 가상환경 제작  
 `python3 -m venv venv`
 
+가상환경 실행
 <table>
   <tr>
     <th>
