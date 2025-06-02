@@ -31,41 +31,41 @@ MAC의 경우 macbook m1pro
 *경고:* 해당 코드는 venv가상환경에서 사용하는것을 추천합니다.
 
 가상환경 제작
-python3 -m venv venv
+`python3 -m venv venv`
 
 [macOS / Linux]
-source venv/bin/activate
+`source venv/bin/activate`
 
 [Windows CMD]
-venv\Scripts\activate
+`venv\Scripts\activate`
 
 [Windows PowerShell]
-venv\Scripts\Activate.ps1
+`venv\Scripts\Activate.ps1`
 
 필요한 모듈 install 하기
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 llama.cpp 저장소 클론
-git clone <https://github.com/ggerganov/llama.cpp>
+`git clone https://github.com/ggerganov/llama.cpp`
 
 모델 저장소 생성
-mkdir models
+`mkdir models`
 
 mac OS brew에서 cmake사용
-brew install cmake
+```brew install cmake
 cd llama.cpp
 mkdir build
 cd build
 cmake ..
-cmake --build . --config Release
+cmake --build . --config Release```
 
 모델 다운로드 하기
-https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF에서 llama-2-7b-chat.Q4_K_M.gguf를 다운로드 해줍니다.
-다운로드한 모델을 아까 만든 models에 넣습니다.
+```<https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF>에서 llama-2-7b-chat.Q4_K_M.gguf를 다운로드 해줍니다.
+다운로드한 모델을 아까 만든 models에 넣습니다.```
 
 
 최종적으로 다음과 같은 디렉토리 구성이 되어야 합니다.
-kiosk-llama/
+```kiosk-llama/
 ├── app.py
 ├── bin/
 │   └── llama-cli
@@ -75,6 +75,6 @@ kiosk-llama/
 ├── templates/
 │   └── main.html
 ├── requirements.txt
-└── .gitignore
+└── .gitignore```
 
 ***
