@@ -37,14 +37,22 @@ html과 js 그리고 flask를 사용하여 GUI환경을 구성하였다.
 가상환경 제작  
 `python3 -m venv venv`
 
-[macOS / Linux]  
-`source venv/bin/activate`
-
-[Windows CMD]  
-`venv\Scripts\activate`
-
-[Windows PowerShell]  
-`venv\Scripts\Activate.ps1`
+<table>
+  <tr>
+    <th>
+    [macOS / Linux]<br>
+    <pre><code>source venv/bin/activate</code></pre>
+    </th>
+    <th>
+    [Windows CMD]
+    <pre><code>venv\Scripts\activate</code></pre>
+    </th>
+    <th>
+    [Windows PowerShell]
+    <pre><code>venv\Scripts\Activate.ps1</code></pre>
+    </th>
+  </tr>
+</table>
 
 필요한 모듈 install 하기  
 `pip install -r requirements.txt`
